@@ -2029,6 +2029,8 @@ end
 local window = library:AddWindow("Nezur Script (FREE)")
 local tab = window:AddTab("Aimbot")
 loadstring(game:HttpGet("https://pastebin.com/raw/CwQcEnEd"))()
+_G.AimbotEnabled = false
+tab:AddLabel("Thanks for Exunys")
 tab:AddSwitch("Enable Aimbot", function(text)
     if text == true then
         _G.AimbotEnabled = true

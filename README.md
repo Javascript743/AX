@@ -12,7 +12,8 @@ and More!
 ### Download
 
 ```
-
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Javascript743/AX/main/AXLUA'))
+print("Loaded.")
 ```
 
 #### Change log
